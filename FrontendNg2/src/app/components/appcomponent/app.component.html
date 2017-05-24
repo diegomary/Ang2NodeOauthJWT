@@ -1,0 +1,12 @@
+<div class="counter">
+    <h1>{{title}}</h1>
+    <button (click)="decrement()">Dec</button>
+    <input type="text" [value] = "counter">
+    <button (click)="increment()">Inc</button>
+    <button (click)="loadFlowers()">Load</button>
+    <pre *ngFor='let value of flowers | slice:0:5'> <span> {{ value.Name | uppercase }}    </span>  </pre>
+    <p><textarea rows="14">{{token.token}}</textarea></p>
+    <button (click)="refreshToken()">Refresh Oauth Token</button>
+    <p>{{jqueryversion}}</p>
+    <div id="jwplayercontainer"></div>
+</div>

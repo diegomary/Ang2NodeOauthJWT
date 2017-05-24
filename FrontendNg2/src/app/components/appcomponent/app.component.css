@@ -1,0 +1,26 @@
+.counter {
+      width:50%;
+      margin:0 auto;
+    }
+input {
+  width: 23%;
+  border: 0;
+      height: 22px;
+  border-width: medium;
+  border-style: solid;
+  border-radius: 13px;
+  text-align: center;
+}
+button {
+  width: 23%;
+  outline: 0;
+  cursor: pointer;
+  height: 30px;
+  border: 0;
+  border-radius: 3px;
+  background: #0088cc;
+  color: #fff;
+}
+textarea {
+  width:100%;
+}

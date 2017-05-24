@@ -1,0 +1,11 @@
+﻿{
+  "playlist": [    
+    {
+      "file": "http://www.dmm888.com/videotutorials/mongoreplica.mp4",
+      "image": "http://www.dmm888.com/videotutorials/mongoreplica.jpg",
+      "title": "Introduction to Replicas in mongo and microservices",
+      "description": "Diego Burlando's intro"
+    }
+  ]
+
+}
